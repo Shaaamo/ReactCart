@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Shaaamo/ReactCart/static/css/main.30b20eb1.css",
-    "main.js": "/Shaaamo/ReactCart/static/js/main.17568fcf.js",
-    "index.html": "/Shaaamo/ReactCart/index.html",
-    "main.30b20eb1.css.map": "/Shaaamo/ReactCart/static/css/main.30b20eb1.css.map",
-    "main.17568fcf.js.map": "/Shaaamo/ReactCart/static/js/main.17568fcf.js.map"
+    "main.css": "/ReactCart/static/css/main.30b20eb1.css",
+    "main.js": "/ReactCart/static/js/main.17568fcf.js",
+    "index.html": "/ReactCart/index.html",
+    "main.30b20eb1.css.map": "/ReactCart/static/css/main.30b20eb1.css.map",
+    "main.17568fcf.js.map": "/ReactCart/static/js/main.17568fcf.js.map"
   },
   "entrypoints": [
     "static/css/main.30b20eb1.css",
