@@ -33,7 +33,7 @@ function Drawer({ onClose, items = [], onRemove }) {
     <div className="overlay">
       <div className="drawer">
         <h2 className="d-flex justify-between mb-30">
-          Basket <img className="cu-p" onClick={onClose} src="/img/btn-remove.svg" alt="Remove" />
+          Basket <img className="cu-p" onClick={onClose} src="https://raw.githubusercontent.com/Shaaamo/ReactCart/master/public/img/btn-remove.svg" alt="Remove" />
         </h2>
 
 
@@ -52,7 +52,7 @@ function Drawer({ onClose, items = [], onRemove }) {
                         <p className="mb-5">{obj.title}</p>
                         <b>{obj.price} zl.</b>
                       </div>
-                      <img onClick={() => onRemove(obj.id)} className="removeBtn" src="/img/btn-remove.svg" alt="Remove" />
+                      <img onClick={() => onRemove(obj.id)} className="removeBtn" src="https://raw.githubusercontent.com/Shaaamo/ReactCart/master/public/img/btn-remove.svg" alt="Remove" />
                     </div>
                   ))
                 }
@@ -71,7 +71,7 @@ function Drawer({ onClose, items = [], onRemove }) {
                   </li>
                 </ul>
                 <button disabled={isLoading} onClick={onClickOrder} className="greenButton">
-                  Make an order <img src="/img/arrow.svg" alt="Arrow" />
+                  Make an order <img src="https://raw.githubusercontent.com/Shaaamo/ReactCart/master/public/img/arrow.svg" alt="Arrow" />
                 </button>
               </div>
             </div>
@@ -79,7 +79,7 @@ function Drawer({ onClose, items = [], onRemove }) {
             <Info
               title={isOrderComplete ? "You've made an order" : "Your bag is empty"}
               description={isOrderComplete ? `Your order will be delivered soon. Your ID is ${orderId}` : "Add at least one pair of sneakers to place an order."}
-              image={isOrderComplete ? "/img/complete-order.jpg" : "/img/empty-cart.jpg"}
+              image={isOrderComplete ? "https://raw.githubusercontent.com/Shaaamo/ReactCart/master/public/img/complete-order.jpg" : "https://raw.githubusercontent.com/Shaaamo/ReactCart/master/public/img/empty-cart.jpg"}
             />
         }
 

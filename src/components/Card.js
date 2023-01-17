@@ -37,7 +37,7 @@ function Card({ id, onFavorite, title, price, image, onPlus, favorited = false, 
         ) : (
           <>
             <div className="favorite" onClick={onClickFavorite}>
-              <img src={isFavorite ? "/img/heart-liked.svg" : "/img/heart-unliked.svg"} alt="Unliked" />
+              <img src={isFavorite ? "https://raw.githubusercontent.com/Shaaamo/ReactCart/master/public/img/heart-liked.svg" : "https://raw.githubusercontent.com/Shaaamo/ReactCart/master/public/img/heart-unliked.svg"} alt="Unliked" />
             </div>
             <img width={133} height={112} src={image} alt="Sneakers" />
             <h5>{title}</h5>
@@ -46,7 +46,7 @@ function Card({ id, onFavorite, title, price, image, onPlus, favorited = false, 
                 <span>Price:</span>
                 <b>{price} zl.</b>
               </div>
-              {onPlus && <img className="btn-plus" onClick={onClickPlus} src={isItemAdded(id) ? "/img/btn-checked.svg" : "/img/btn-plus.svg"} alt="Plus" />}
+              {onPlus && <img className="btn-plus" onClick={onClickPlus} src={isItemAdded(id) ? "https://raw.githubusercontent.com/Shaaamo/ReactCart/master/public/img/btn-checked.svg" : "https://raw.githubusercontent.com/Shaaamo/ReactCart/master/public/img/btn-plus.svg"} alt="Plus" />}
             </div>
           </>
         )}

@@ -36,8 +36,8 @@ function Home({
             <div className="d-flex align-center justify-between mb-40">
                 <h1>{searchValue ? `Searching for: "${searchValue}"` : 'All products'}</h1>
                 <div className="search-block d-flex">
-                    <img src="/img/search.svg" alt="Search" />
-                    {searchValue && <img onClick={() => setSearchValue('')} className="cu-p clear" src="/img/btn-remove.svg" alt="Clean" />}
+                    <img src="https://raw.githubusercontent.com/Shaaamo/ReactCart/master/public/img/search.svg" alt="Search" />
+                    {searchValue && <img onClick={() => setSearchValue('')} className="cu-p clear" src="https://raw.githubusercontent.com/Shaaamo/ReactCart/master/public/img/btn-remove.svg" alt="Clean" />}
                     <input onChange={onChangeInput} value={searchValue} placeholder="Search..." />
                 </div>
             </div>

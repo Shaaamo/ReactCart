@@ -11,7 +11,7 @@ function Header(props) {
     < header className="d-flex justify-between align-center p-40" >
       <Link to={`/`}>
         <div className="d-flex align-center">
-          <img width={40} height={40} src="/img/logo.png" alt="Logo" />
+          <img width={40} height={40} src="https://raw.githubusercontent.com/Shaaamo/ReactCart/master/public/img/logo.png" alt="Logo" />
           <div>
             <h3 className="text-uppercase">React boots</h3>
             <p className="opacity-5">The coolest sneakers shop</p>
@@ -20,17 +20,17 @@ function Header(props) {
       </Link>
       <ul className="d-flex">
         <li onClick={props.onClickCart} className="mr-30 cu-p">
-          <img width={18} height={18} src="/img/cart.svg" alt="Cart" />
+          <img width={18} height={18} src="https://raw.githubusercontent.com/Shaaamo/ReactCart/master/public/img/cart.svg" alt="Cart" />
           <span>{totalPrice} zl.</span>
         </li>
         <li className="cu-p mr-20">
           <Link to={`/favorites`}>
-            <img width={18} height={18} src="/img/heart.svg" alt="heart" />
+            <img width={18} height={18} src="https://raw.githubusercontent.com/Shaaamo/ReactCart/master/public/img/heart.svg" alt="heart" />
           </Link>
         </li>
         <li>
           <Link to={`/orders`}>
-            <img width={18} height={18} src="/img/user.svg" alt="User-img" />
+            <img width={18} height={18} src="https://raw.githubusercontent.com/Shaaamo/ReactCart/master/public/img/user.svg" alt="User-img" />
           </Link>
         </li>
       </ul>
