@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Shaaamo/static/css/main.30b20eb1.css",
+    "main.js": "/Shaaamo/static/js/main.17568fcf.js",
+    "index.html": "/Shaaamo/index.html",
+    "main.30b20eb1.css.map": "/Shaaamo/static/css/main.30b20eb1.css.map",
+    "main.17568fcf.js.map": "/Shaaamo/static/js/main.17568fcf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30b20eb1.css",
+    "static/js/main.17568fcf.js"
+  ]
+}
